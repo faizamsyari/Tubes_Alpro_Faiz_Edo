@@ -8,9 +8,7 @@ def menambah():
     #INPUTAN MENAMBAH DATA
     print("=============== CATATAN PENTING =========================================================")
     print(""" 
-        1.Apabila ingin menambah data lebih dari 1 kata gunakan spasi 
-        2.Setiap Awalan Kata Gunakan Huruf Kapital, Contoh: [Faiz Amsyari]
-        3.Saat menginput divisi harus menggunakan huruf besar semua, Contoh: [PSDM] 
+        1.Apabila ingin menambah data lebih dari 1 kata gunakan spasi contoh : [Faiz Amsyari]
     """)
     print("========================================================================================")
     print("")
