@@ -301,8 +301,11 @@ def rubah():
                 kunci = 0
                 itu = nana.split("||")
                 if itu [4] == nama_baru_konversi :
+                    print("")
                     print("MOHON MAAF NAMA YANG DIINPUT TELAH ADA")
+                    print("")
                     file.close()
+                    awalan()
                   #  ini = int(input("Masukkan:"))
                   # if ini == 1:
                   #      file = open("panitia.txt","r")
