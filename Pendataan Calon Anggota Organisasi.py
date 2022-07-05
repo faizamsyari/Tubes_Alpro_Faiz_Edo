@@ -340,7 +340,7 @@ def rubah():
                 print("Umur:" + str(umur_baru))
                 print("Jurusan:" + jurusan_baru_konversi)
                 print("Divisi:" + divisi_baru_konversi)
-                print("Nilai Tes:" + nilai_baru)
+                print("Nilai Tes:" + str(nilai_baru))
                 print("Status:" + status_baru)
                 print("")
                 print("============================================================================")
