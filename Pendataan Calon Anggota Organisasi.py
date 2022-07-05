@@ -303,15 +303,15 @@ def rubah():
                 if itu [4] == nama_baru_konversi :
                     print("MOHON MAAF NAMA YANG DIINPUT TELAH ADA")
                     file.close()
-                    ini = int(input("Masukkan:"))
-                    if ini == 1:
-                        file = open("panitia.txt","r")
-                        file.close()
-                        rubah()
-                    else:
-                        file = open("panitia.txt","r")
-                        file.close()
-                        awalan()
+                  #  ini = int(input("Masukkan:"))
+                  # if ini == 1:
+                  #      file = open("panitia.txt","r")
+                  #      file.close()
+                  #      rubah()
+                  #  else:
+                  #      file = open("panitia.txt","r")
+                  #      file.close()
+                  #      awalan()
                 kunci+=1
             if nilai_baru > 90.0:
                 status_baru = "LULUS"
@@ -375,7 +375,7 @@ def rubah():
                 print("Umur:" + str(umur_baru))
                 print("Jurusan:" + jurusan_baru_konversi)
                 print("Divisi:" + divisi_baru_konversi)
-                print("Nilai Tes:" + nilai_baru)
+                print("Nilai Tes:" + str(nilai_baru))
                 print("Status:" + status_baru)
                 print("")
                 print("============================================================================")
